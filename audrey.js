@@ -6,10 +6,11 @@ const audrey = document.getElementById("audrey")
 */
 document.addEventListener("scroll", () => {
     console.log(window.scrollY)
-    if ( window.scrollY > 150) {
-    audrey.style.width = `${window.scrollY / 3}px`}
-    if (window.scrollY > 400 ) {
-        audrey.style.height = `${window.scrollY / 4}px`}
+    if (window.scrollY > 150) {
+        audrey.style.width = `${window.scrollY / 3}px`
     }
+    if (window.scrollY > 400) {
+        audrey.style.height = `${window.scrollY / 4}px`
+    }
+}
 )
-    // setAttribute("style", `width: ${window.scrollY / 3}px; height: ${window.scrollY / 4}px;`))
